@@ -24,6 +24,18 @@ var x = 3;
 var y = 10;
 console.log(x*y);
 
+var k = 5;
+var l = 5.66; //integer 15 digit float noktodan sonra 17 digit
+
+console.log(typeof a);
+console.log(typeof b);
+
+console.log(Number.MAX_SAFE_INTEGER); //9007199254740991
+
+console.log(0.1+0.2);
+console.log((0.1+0.2).toFixed(3)); //2 digitli yazdırıyor string
+console.log(+(0.1+0.23333).toFixed(2)); //2 digitli yazdırıyor number
+
 
 
 
