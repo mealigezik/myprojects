@@ -36,7 +36,14 @@ console.log(0.1+0.2);
 console.log((0.1+0.2).toFixed(3)); //2 digitli yazdırıyor string
 console.log(+(0.1+0.23333).toFixed(2)); //2 digitli yazdırıyor number
 
+var pc = 'Lenova';
+console.log('Merhaba',pc);
+console.log(`Merhaba ${pc}`); // ` ile ' aynı değildir. İki tırnak işareti de farklı
 
-
-
+console.log(Boolean(''));
+console.log(Boolean(' ')); //boşluk da karakterdir ve true verir
+console.log(Boolean(8<9));
+console.log(Boolean(0));
+console.log(Boolean("0"));
+console.log(Boolean(null));
 
