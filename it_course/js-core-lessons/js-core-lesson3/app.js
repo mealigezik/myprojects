@@ -124,7 +124,7 @@ console.log(2 && 3); */
 
 //Not
 
-// console.log(!true);
+console.log(!null);
 // console.log(!false);
 // console.log(!5);
 // console.log(!0);
