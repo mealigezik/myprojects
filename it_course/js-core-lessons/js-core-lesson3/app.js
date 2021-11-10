@@ -45,4 +45,23 @@ console.log({o}, typeof o );
 p = +o;
 console.log({p}, typeof p );
 
+//  == değer eşit mi?  === değer tipiyle eşit mi?
+
+var aa = '10';
+var bb = '2';
+var cc = 2;
+
+console.log(aa>bb); // charCodeAt a göre 49, 48 den büyük old için false verdi.
+console.log(aa.charCodeAt());//49 string karşılaştırmalarda charCodeAt not alınır.
+console.log('1'.charCodeAt()); //49
+console.log('0'.charCodeAt()); //48
+
+console.log('A'>'a', "because A charCode value =", 'A'.charCodeAt(), 'but' ,'a charCode value =', 'a'.charCodeAt());
+// false 'because A charCode value =' 65 'but' 'a charCode value =' 97
+
+console.log(015+025); //34 -- 5+8=13 ve 5+16=21 top 34 burada 0 dan 7 ye 8lik sayı sistemine göre toplama yapar
+console.log(15+025); //36 -- 15+21
+console.log(015+25); //38 -- 13+225
+console.log(15+25); //40 -- 15+25
+//başına 0 koyarsak (oktav) 8 lik sayı sistemine göre toplama yapar.
 
