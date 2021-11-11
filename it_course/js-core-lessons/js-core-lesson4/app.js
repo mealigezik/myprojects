@@ -29,3 +29,26 @@ username ? console.log(`Merhaba ${username}`) : console.log(`Please login.`);
 let userName = `Frank` //let userName; karşılığı olmadığı için && ilk entryden ileriye ggitmez ve undefined çıkar
 console.log(userName && console.log(`Merhaba ${userName}`));
 
+
+// Switch Case Yapısı 
+
+var text;
+var fruits = 'BaNaNa'; //Banana yazarsan ilk case çalışır.
+// var fruits = prompt("Please enter fruit name : ")  bu komut ile entry alıyoruz.
+
+switch (fruits.toLowerCase()) { //toLowerCase komutu hepsini küçük graflere dönüştürüyor
+    case "banana":
+    case "lemon":
+    case "lime":
+        text = `${fruits} is good!`;
+        break;
+    case "Orange":
+        text = "I am not fan of Orange!";
+        break;
+    case "Apple":
+        text = "How you like them Apples";
+        break;
+    default:
+        text = `I have neveR heard of ${fruits}`;   
+}
+console.log(text);
