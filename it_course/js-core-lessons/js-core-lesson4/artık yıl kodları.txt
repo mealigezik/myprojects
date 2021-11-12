@@ -1,0 +1,58 @@
+/* var year = 2024;
+var month = 4;
+var dayCount;
+switch (month) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        dayCount = 31;
+        break;
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        dayCount = 30;
+        break;
+    case 2:
+        if (((year % 4 == 0) && !(year % 100 == 0))
+            || (year % 400 == 0))
+            dayCount = 29;
+        else
+            dayCount = 28;
+        break;
+    default:
+        dayCount = -1; // invalid month
+}
+console.log(dayCount); // 29 */
+
+
+
+let dayUser = prompt("Enter day: ");
+let day = dayUser.toLocaleLowerCase();
+let message;
+switch(day) {
+    case "monday":
+    case "wednesday":
+    case "thursday":
+    case "saturday":
+        message = "There is in-class today";
+        break;
+    case "tuesday":
+    case "friday":
+        message = "There is teamwork today";
+    break;
+    case "sunday":
+        message = "Holiday";
+    break;
+    default:
+        message = "Invalid day";
+
+    
+}
+console.log(message);
+
+

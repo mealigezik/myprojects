@@ -52,3 +52,39 @@ switch (fruits.toLowerCase()) { //toLowerCase komutu hepsini küçük graflere d
         text = `I have neveR heard of ${fruits}`;   
 }
 console.log(text);
+
+let dayUser = prompt("Enter day: ");
+let day = dayUser.toLocaleLowerCase();
+let message;
+switch(day) {
+    case "monday":
+    case "wednesday":
+    case "thursday":
+    case "saturday":
+        message = "There is in-class today";
+        break;
+    case "tuesday":
+    case "friday":
+        message = "There is teamwork today";
+    break;
+    case "sunday":
+        message = "Holiday";
+    break;
+    default:
+        message = "Invalid day";
+  
+}
+console.log(message);
+
+//Loops
+
+let i = 0;
+let sum = 0;
+
+while(i<11){
+    sum += i;
+    console.log(sum);
+    i++
+}
+console.log({i});
+console.log()
