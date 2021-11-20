@@ -27,9 +27,25 @@ for (let e = 0; e<=1000; e++){
 }
 
 // zar atma oyunu 3 kez 3 çıkarsa ve 6 çıkarsa oyun bitsin
-console.log("zar atma oyunu 3 kez 3 çıkarsa ve 6 çıkarsa oyun bitsin");
+console.log("zar atma oyunu üç kez 3 çıkarsa veya bir kez 6 çıkarsa oyun bitsin");
 
+// let x = Math.trunc(Math.random() * 20) +1; //rastgele sayı verme fonsksiyonu
+// console.log(x);
 
+var qq = Math.floor((Math.random() * 6) + 1);
+var summ = 0
+while(true){
+    if(qq ==6){
+        console.log(qq);
+        break;
+    }else{
+        if(qq ==3){
+            summ++
+        }
+        if (summ == 3) break;
+    }
+}
+ console.log(qq);
 
 
 
