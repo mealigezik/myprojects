@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+.headings{
+    font-family: Lobster;
+    /* font-size: 90px; */
+}
+
+#title{
+    font-size: 90px;
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+/* #img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+#image{
+    /* border: 1px solid blue; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    width: 350px;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+#marvel{
+    font-size: 60px;
+}
+
+li{
+    font-size: 24px;
+    /* letter-spacing: 3px; */
+    line-height: 1.8;
+}
+
+#link{
+    color: brown;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#link:hover{
+    color: rgb(255, 0, 0);
+    font-size: 27px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    color: yellow;
+    margin: 0;
+    padding: 0;
