@@ -1,0 +1,149 @@
+/* boşlukları sıfırla */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: black;
+    background-image: url(images/IMG_1981\ -\ Kopya.jpg);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: center;
+    background-attachment: scroll;
+}
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border-style: solid;
+    border-color: rgb(199, 255, 199);
+    border-width: 1px;
+    margin: auto;
+}
+#banner{
+    width: 896px;
+    height: 100px;
+    border-style: dashed;
+    background-color: white;
+    border-width: 2px;
+    margin: auto;
+    /* border-radius: 20px; */
+}
+
+#logo{
+    width: 100px;
+    height: 80px;
+    border-style: none;
+    background-color: white;
+    border-width: 1px;
+    /* margin: auto; */
+    /* border-radius: 20px; */
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#sosyal{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    border-style: none;
+    border-width: 1px;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+#icon1{
+    float: left;
+}
+#icon2{
+    /* position: relative;
+    left: 30px;  */
+    margin-left: 30px;
+}
+#icon3{
+    float: right;
+}
+
+#anamenu{
+    width: 896px;
+    height: 100px;
+    border-style: dashed;
+    background-color: deepskyblue;
+    border-width: 1px;
+    margin: auto;
+}
+
+#anamenu ul{
+    list-style-type: none;
+}
+
+#anamenu ul li{
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: white;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#anamenu ul a{
+    text-decoration: none;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#anamenu ul a:link{
+    color: blue;
+}
+
+#anamenu ul a:hover{
+    color: khaki;
+}
+
+#anamenu ul a:visited{
+    color: red;
+}
+
+#anamenu ul a:active{
+    color: yellow;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    max-height: 100px;
+    padding-top: 50px;} */
